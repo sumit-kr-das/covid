@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.secondary {
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  background: linear-gradient(to right, #ffbd84 0, #ff1f8e 100%);
+  color: white;
+  font-weight: 400;
+  border: none;
+  border-radius: 0.2rem;
+  margin: 1rem 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn:hover {
+  background: linear-gradient(to left, #ffbd84 0, #ff1f8e 100%);
+}
+
+.header {
+  font-weight: 900;
+  background: linear-gradient(90deg, #af6dff 0, #ff448e 25%, #ff9d57 50%, #ff38d3 75%, #00ffdc 100%);
+  background-size: cover;
+  background-position: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.tot_main {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.tot_container {
+  background: linear-gradient(to right, #9C27B0 0, #673AB7 100%);
+  color: #fff;
+  width: 200px;
+  height: 100px;
+  margin: 1rem;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  border-radius: 0.4rem;
+}
+
+.head {
+  margin: 2rem 0 0.5rem 0;
+  color: #ff448e;
+}
